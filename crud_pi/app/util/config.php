@@ -6,11 +6,11 @@
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'proj_integrador');
 define('DB_USER', 'root');
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'bancodedados');
 
 //Caminho para adionar imagens, scripts e chamar páginas no sistema
 //Deve ter o nome da pasta do projeto no servidor APACHE
-define('BASEURL', '/crud_pi/app');
+define('BASEURL', '/Geovana2024/crud_pi/app');
 
 //Nome do sistema
 define('APP_NAME', 'Template do Projeto Integrador');
@@ -29,8 +29,6 @@ define('SESSAO_USUARIO_ID', "usuarioLogadoId");
 define('SESSAO_USUARIO_NOME', "usuarioLogadoNome");
 define('SESSAO_USUARIO_PAPEL', "usuarioLogadoPapel");
 
-//Route para abrir o projeto
-http://localhost/crud_pi/app/controller/LoginController.php?action=login
 
 
 
